@@ -57,9 +57,11 @@ img.thumbnail{
   color: #777777;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 1.5;
-  /*padding-top: 0;*/
+  padding-top: 0;
   padding-bottom: 0;
   vertical-align: middle;
+  text-align: center;
+  padding: auto;
 }
 #link_text_1, 
 #link_text_2{
@@ -67,4 +69,29 @@ img.thumbnail{
 }
 #about{
   margin-top: 2.5px;
+}
+#nav_links{
+  margin-right: 15px;
+  margin-top: 20px;
+  overflow: auto;
+}
+#nav_name{
+  margin-left: 15px;
+}
+h1{
+  font-size: 35px;
+}
+@media screen and (max-width: 768px;){
+  #nav_name{
+    width: 100%;
+  }
+  #nav_links{
+    width: auto;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 993px;){
+  #side_connect{
+    margin-top: 15px;
+  }
 }
