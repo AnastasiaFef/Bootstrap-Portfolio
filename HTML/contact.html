@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/3/flatly/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<title>Anastasia's Portfolio</title>	
+	<link rel="shortcut icon" href="../assets/images/favicon.ico" />
+</head>
+<body>
+<div class=wrapper>
+	<nav id="top-bar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container top-bar">
+			<div class=row>
+				<div id="nav_name" class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+					<div id=name class="navbar-brand big_text">    Anastasia Fefilova </div>
+				</div>
+				<div id="nav_links" class="col-xs-12 col-sm-5 col-md-4 col-lg-3 navbar-right">
+					<ul class="nav navbar-nav centered navbar-right nav-pills">
+    					<li><a id=link_text_1 href="../index.html">About</a></li>
+    					<li><a id=link_text_2 href="portfolio.html">Portfolio</a></li>
+    					<li><a id=link_text_3 href="contact.html">Contact</a></li>
+    				</ul>
+    			</div>
+			</div>
+		</div>
+	</nav>
+	<section class=container>
+		<div class=row>
+			<div id=contact_main class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<h1 id=about class=head_text>Contact Me</h1>
+				<form id="contact-form" method="post" action="contact.php" role="form">
+ 					<div class="messages"></div>
+				    <div class="controls">
+        				<div class="row">
+            				<div class="col-md-6">
+                				<div class="form-group">
+                    				<label for="form_name">Firstname *</label>
+                    				<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    			<div class="help-block with-errors"></div>
+                			</div>
+            			</div>
+            			<div class="col-md-6">
+            			    <div class="form-group">
+                			    <label for="form_lastname">Lastname *</label>
+			                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+			                    <div class="help-block with-errors"></div>
+			                </div>
+			            </div>
+			        </div>
+			        <div class="row">
+			            <div class="col-md-6">
+			                <div class="form-group">
+			                    <label for="form_email">Email *</label>
+			                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+			                    <div class="help-block with-errors"></div>
+			                </div>
+			            </div>
+			            <div class="col-md-6">
+			                <div class="form-group">
+			                    <label for="form_phone">Phone</label>
+			                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+			                    <div class="help-block with-errors"></div>
+			                </div>
+			            </div>
+			        </div>
+			        <div class="row">
+			            <div class="col-md-12">
+			                <div class="form-group">
+			                    <label for="form_message">Message *</label>
+			                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+			                    <div class="help-block with-errors"></div>
+			                </div>
+			            </div>
+			            <div class="col-md-12">
+			                <input type="submit" class="btn btn-success btn-send" value="Send message">
+			            </div>
+			        </div>
+			        <div class="row">
+			            <div class="col-md-12">
+			                <p class="text-muted"><strong>*</strong> These fields are required.</p>
+			            </div>
+			        </div>
+			    </div>
+			</form>
+			</div>
+		  	<div id=side_connect class="col-xs-12 col-sm-12 col-md-4 col-lg-4">	
+			  	<div class="panel panel-default">
+					<div id=contact_panel class="panel-heading">
+		    			<h3 class="head_text panel-title">Connect With Me</h3>
+		  			</div>
+		  			<div class="panel-body">
+	    				<a target="_blank" href="https://github.com/AnastasiaFef">
+							<img class="connect_netw" src="../assets/images/github.png" alt="github">
+						</a>
+						<a target="_blank" href="https://www.linkedin.com/in/anastasiafefilova">
+							<img class="connect_netw" src="../assets/images/linkedin.png" alt="linkedin">
+						</a>
+						<a target="_blank" href="https://stackoverflow.com/users/8763089/anastasia">
+							<img class="connect_netw" src="../assets/images/stackoverflow.png" alt="stackoverflow">
+						</a>
+			  		</div>
+				</div>
+			</div>			
+		</div>
+	</section>
+	<div class=push></div>
+</div>
+	<footer class="footer">
+		<div class="container text-center">
+			<p class="text-muted">&copy; Copyright 2017 Anastasia Fefilova</p>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

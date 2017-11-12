@@ -19,7 +19,9 @@ html, body {
   /* But also accounting for potential margin-bottom of last child */
   margin-bottom: -50px;
 }
-div.about_me{
+div.about_me,
+#portfolio_main,
+#contact_main{
 	border: 1px solid #dddddd;
 	padding: 15px;
 	overflow: auto;
@@ -110,3 +112,26 @@ h1{
   width: 60px;
   margin: 0 7px 0 7px;
 }
+div.bar{
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  height: 25px;
+  background: #4aaaa5;
+  top: 70%;
+  color: #ffffff;
+  text-align: center;
+}
+.btn-success {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    }
+.head_text{
+  color: #4aaaa5;
+}
+.big_text{
+  font-size: 28px;
+  font-weight: bold;
+}
+#contact_panel  {
+    background-color: white;}
